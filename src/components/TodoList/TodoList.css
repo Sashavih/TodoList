@@ -1,0 +1,51 @@
+.todo-box {
+    width: 60%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #669966;
+}
+
+.todo-box__title {
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(196, 67, 91);
+
+}
+
+.todo-box__tasks {
+    align-self: flex-start;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.todo-box__form {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    gap: 2em;
+}
+
+.todo-box__text {
+    padding: 1em;
+    width: 30em;
+    border: none;
+    outline: 0;
+}
+
+.todo-box__btn {
+    padding: 0.5em;
+    width: 7rem;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #c3c4c3;
+}
+
+.todo-box__check {
+    margin-right: 1rem;
+
+}
