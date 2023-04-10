@@ -6,8 +6,8 @@ import { pink } from '@mui/material/colors';
 
 interface Todo {
     id: number,
-    title: string,
-    completed: boolean
+    title: string
+
 }
 const TodoList = () => {
     const [todos, setTodos] = useState<Todo[]>([]);
@@ -21,7 +21,7 @@ const TodoList = () => {
         const newTodo = {
             id: Date.now(),
             title: value,
-            completed: false
+
         }
         setTodos([...todos, newTodo]);
         setValue('');
